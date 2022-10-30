@@ -1,0 +1,231 @@
+@font-face
+{
+    font-family: NetflixMd;
+    src: url('../fonts/NetflixSans_W_Md.woff2');
+}
+
+@font-face
+{
+    font-family: NetflixRg;
+    src: url('../fonts/NetflixSans_W_Rg.woff2');
+}
+
+@font-face
+{
+    font-family: NetflixIcon;
+    src: url('../fonts/nf-icon-v1-93.woff');
+}
+
+body
+{
+    background-color: black !important;
+}
+
+.main-container
+{
+    height: 100%;
+    width: 100%;
+    border-bottom: 10px;
+    border-bottom-color: solid #222;
+}
+
+.top-container
+{
+    height: 733px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 8px solid #222;
+}
+
+.back-image
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.back-img
+{
+    object-fit: cover;
+    /* position: absolute;
+    top: 100px;
+    z-index: -1; */
+    opacity: 0.5;
+    
+}
+
+.header-container
+{
+    height: 100px;
+    width: 100%;
+    padding: 28px 56px;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0));
+}
+
+.netflix-logo
+{
+    margin-right: auto;
+}
+
+.small-btn
+{
+    height: 34;
+    background-color: #e50914;
+    border-radius: 3px;
+    border: 0;
+    color: #fff;
+    text-align: center;
+    font-family: NetflixRg;
+    font-size: 16px;
+    float: right;
+    padding: 0 17px;
+}
+
+.central-body
+{
+    height: 100%;
+    width: 100%;
+    top: 100px;
+}
+
+.main-page
+{
+    height: 641;
+    width: 1903;
+    padding: 145px 45px;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.text-1
+{
+    font-size: 4rem;
+    line-height: 1.1;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: NetflixMd;
+}
+
+.text-2
+{
+    font-size: 1.625rem;
+    margin: 1rem auto;
+    font-family: NetflixRg;
+}
+
+.text-3
+{
+    font-size: 1.2rem;
+    max-width: none;
+    padding-bottom: 20px;
+    margin: 30px auto 0 auto;
+    font-family: NetflixRg;
+}
+
+.central-box
+{
+    display: flex;
+    margin-left: 535px;
+}
+
+.form-control
+{
+    width: 500px !important;
+    height: 70px;
+    border-radius: 1px !important;
+    font-family: NetflixRg;
+}
+
+.big-red-button
+{
+    background: #f40612;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+    border-bottom-left-radius: 0;
+    border-left: 1px solid #333 !important;
+    border-top-left-radius: 0;
+    margin: 0!important;
+    border-color: #f40612;
+    color: #fff;
+    font-size: 1.875rem;
+    width: 245px;
+    height: 70px;
+    border-radius: 2px;
+    font-family: NetflixRg;
+}
+
+.big-red-button img
+{
+    margin-left: 6px;
+    margin-bottom: 2px;
+}
+
+.second-page
+{
+    margin: 0 auto;
+    max-width: 1100px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.part-1
+{
+    height: 180px;
+    width: 547px;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: left;
+    margin: auto;
+}
+
+.part-2
+{
+    height: 401px;
+    width: 530px;
+}
+
+.second-page h1
+{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-family: NetflixRg;
+}
+
+.second-page h2
+{
+    margin: 0.75em 0 0.25em;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.second-page img
+{
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+}
+
+.computer-animation
+{
+    height: 219px;
+    left: 85px;
+    position: absolute;
+    top: 83px;
+    width: 392px;
+}
+
+.computer-animation video
+{
+    width: 100%;
+    height: 100%;
+}
